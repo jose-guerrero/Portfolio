@@ -1,0 +1,28 @@
+.row-skill{
+    margin-bottom: 25px;
+    padding-bottom: 10px;
+}
+.skills-tab{
+    /*background-color: white;*/
+}
+.dev-icon-font{
+    font-size: 6em;
+    font-weight: 100;
+}
+
+#p1 {
+  display: block;
+  width: 12em;
+    margin: 0 auto;
+  height: 16em;
+  padding-bottom: 20px;
+
+}
+
+#p2 {
+  display: block;
+  margin: 0 auto;
+  height: 12em;
+  width: 15em;
+  padding-bottom: 20px;
+}
