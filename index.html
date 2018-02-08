@@ -54,8 +54,8 @@
 		$(document).ready(function() {
 	    	$('#pagepiling').pagepiling({
 	    		menu: '#menu',
-	    		anchors: ['page1', 'page2','page3','page4','page5'],
-			    sectionsColor: ['#bfda00', '#2ebe21','#bfdaff', '#202000','#58ACFA'/*'#2ebe21'*/],
+	    		anchors: ['page1','page2','page3','page4'],
+			    sectionsColor: ['#bfda00'/*, '#2ebe21'*/,'#ffffcc','#e6ffe6' /*'#bfdabf'*/,'#bfda00'/*'#2ebe21'*/],
 			    loopTop: true,
 			    loopBottom: true
 			});
@@ -68,35 +68,37 @@
 
 
 	<ul id="menu">
-		<li data-menuanchor="page1" class="active"><a href="#page1">Home</a></li>
-		<li data-menuanchor="page2"><a href="#page2">About Me</a></li>
-		<li data-menuanchor="page3"><a href="#page3">Projects</a></li>
-		<li data-menuanchor="page4"><a href="#page4">Skills</a></li>
-    <li data-menuanchor="page5"><a href="#page5">Contact</a></li>
+		<li data-menuanchor="page1" class="active"><a href="#page1">About Me</a></li>
+		<li data-menuanchor="page2"><a href="#page2">Projects</a></li>
+		<li data-menuanchor="page3"><a href="#page3">Skills</a></li>
+    <li data-menuanchor="page4"><a href="#page4">Contact</a></li>
 	</ul>
 
     <!-- Section 1 -->
 
 	<div id="pagepiling">
 	    <div class="section" id="section1">
-	    	<h1><strong>Welcome to my Site</strong></h1>
-			  <p><strong>Hello, I am Jose</strong></p>
-	    </div>
+				<div class="stars"></div>
+			 <div class="twinkling"></div>
+			 <div class="profile_container">
+					 <h2 style="color:white;padding:10px"><strong>Hello, My name is Jose Guerrero</strong></h2>
+					 <div id="img_vis01"></div>
+					<div>
+					 <p id="pres_text">I am a programmer with a background as an electronics engineer. I’m passionate about technology and since studying my degree, I’ve always been drawn to programming and loved implementing complex algorithms in a variety of languages including  <strong style="color:green;  font-style: italic;">C++</strong> and  <strong style="color:blue;  font-style: italic;">Python</strong>.
+		 					I came to <strong style="color:red;  font-style: italic;">General Assembly</strong> to pick up even more languages and now have an obsession with <strong style="color:yellow;  font-style: italic;">JavaScript</strong> too!.</p>-->
+					</div>
+				</div>
 
 
-      <!-- Section 2 -->
-			<div class="section" id="section2">
-			 <div id="img_vis01"></div>
-		 	 <p id="pres_text">I am a programmer with a background as an electronics engineer. I’m passionate about technology and since studying my degree, I’ve been particularly drawn to programming and loved implementing complex algorithms in a variety of languages including C++ and Python.
-				 I came to <strong style="color:black;">General Assembly</strong> to pick up even more languages and now have an obsession with JavaScript too!.</p>
+			 </div>
+			  <!--  <div class="clouds"></div> -->
+		  <!--		<p id="pres_text">I am a programmer with a background as an electronics engineer. I’m passionate about technology and since studying my degree, I’ve been particularly drawn to programming and loved implementing complex algorithms in a variety of languages including C++ and Python.
+					I came to <strong style="color:black;">General Assembly</strong> to pick up even more languages and now have an obsession with JavaScript too!.</p>-->
 
 
+        <!-- Section 2 -->
 
-		</div>
-
-        <!-- Section 3 -->
-
-        <div class="section" id="section3">
+        <div class="section" id="section2">
 
 					<div class="container">
 						<div class="grid">
@@ -264,8 +266,8 @@
 
 </div>
 
-        <!-- Section 4 -->
-	    <div class="section" id="section4">
+        <!-- Section 3 -->
+	    <div class="section" id="section3">
 	    	<div class="intro">
           <div class="sectioncontainer" id="container_skills">
 
@@ -336,12 +338,12 @@
 	 </div>
 
 
-      <!-- Section 5 -->
-      <div class="section" id="section5">
+      <!-- Section 4 -->
+      <div class="section" id="section4">
 	    	<div class="intro">
           <div class="contactWrapper">
        <br>
-       <p id="findme">Reach me at:</p>
+       <p id="findme"><strong>Reach me at:</strong></p>
        <br>
 
 				 <div id="medias">
