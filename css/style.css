@@ -382,7 +382,6 @@ img.hover-shadow {
   .picture-grid{
     grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
   }
-x
 }
 @media only screen and (max-width: 430px) {
   .profile_container{
@@ -601,5 +600,9 @@ border: 1px solid #fff;
 }
 
 #findme{
-  color:blue;
+  color: white;
+}
+
+#modal-content-4{
+  background-color: #ccffcc;
 }
